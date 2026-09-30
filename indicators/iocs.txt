@@ -1,0 +1,21 @@
+Indicators of Compromise
+
+Source IP:
+203.0.113.45
+
+Secondary IP:
+198.51.100.27
+
+Compromised Account:
+daniel
+
+Suspicious File:
+ /tmp/update.sh
+
+Suspicious Activity:
+- Repeated failed SSH authentication attempts
+- Successful SSH login after repeated failures
+- Privileged sudo activity
+- System reconnaissance
+- External script download
+- Execution of downloaded script
